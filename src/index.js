@@ -732,17 +732,9 @@ const nightwind = plugin(
       ? addComponents(transitionClasses)
       : addUtilities(transitionClasses)
   },
+  {},
   {
-    theme: {
-      extend: {
-        transitionDuration: {
-          0: "0ms",
-        },
-      },
-    },
-  },
-  {
-    purge: ["./node_modules/nightwind/**/*.js"],
+    content: ["./node_modules/nightwind/**/*.js"],
   }
 )
 
