@@ -732,7 +732,6 @@ const nightwind = plugin(
       ? addComponents(transitionClasses)
       : addUtilities(transitionClasses)
   },
-  {},
   {
     content: ["./node_modules/nightwind/**/*.js"],
   }
