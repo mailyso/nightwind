@@ -726,11 +726,11 @@ const nightwind = plugin(
       }
     })
 
-    addComponents(nightwindClasses, { variants: ["responsive"] })
+    addComponents(nightwindClasses)
     addComponents(typographyClasses)
     theme("nightwind.importantNode")
-      ? addComponents(transitionClasses, { variants: ["responsive"] })
-      : addUtilities(transitionClasses, { variants: ["responsive"] })
+      ? addComponents(transitionClasses)
+      : addUtilities(transitionClasses)
   },
   {
     theme: {
